@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling >= 1.27"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pyPhy"
+version = "1.0"
+dependencies = [
+    "httpx",
+    "matplotlib >= 3.10.7",
+    "numpy >= 2.3.4",
+]
+requires-python = ">= 3.12.1"
+readme = "README.md"
+keywords = ["physics", "py"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Anyone",
+    "Topic :: Library :: Physics Equations",
+    "Programming Language :: Python :: 3",
+]
