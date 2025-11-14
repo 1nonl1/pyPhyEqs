@@ -3,7 +3,7 @@ requires = ["hatchling >= 1.27"]
 build-backend = "hatchling.build"
 
 [project]
-name = "pyPhy"
+name = "pyPhyEqs"
 version = "1.0"
 dependencies = [
     "httpx",
