@@ -1,6 +1,6 @@
 from physics.importantConstants import Constant as const
-c = const.SPEED_OF_LIGHT
-g = const.GRAVITATIONAL_CONST
+c = const.c
+g = const.G
 
 def calculate(M, r, timeNearBlackHole):
     """

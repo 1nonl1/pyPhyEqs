@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
 from physics.importantConstants import Constant as const
-c = const.SPEED_OF_LIGHT
+c = const.c
 
 
 def calculateTime(velocity, observerTime):
