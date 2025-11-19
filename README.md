@@ -6,3 +6,7 @@ This is the Python Physics Equations package. It is still currently in developme
 > 1. Type: `pip install pyPhyEqs` in your preferred directory.
 
 
+## Contributing
+If you would like to suggest a formula, please do the following:
+> 1. Go the the repository discussion page.
+> 2. Type in the suggestion/request with a discription of the addition along with the formula, and what category it is under.
