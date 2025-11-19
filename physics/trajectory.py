@@ -19,6 +19,16 @@ def calcDistanceNoAirFric(Vi, a, h):
     return distance
 
 def calcTimeNoAirFric(Vi, a, h):
+    """
+    Calculates the total time in the air
+
+    Args:
+        Vi (float): Initial velocity in m/s
+        a (float): Launch angle in degrees
+        h (float): Inital height in meters
+    Returns:
+        float: Total time in the air
+    """
     Viy = Vi * (math.sin(math.radians(a)))
     totalTime = ((Viy + (((Viy ** 2) + (2 * (g * h))) ** 0.5)) / g)
     return totalTime
@@ -33,6 +43,8 @@ def graphTra(distance):
     Graphs the trajectory of a projectile without air friction.
     Args:
         distance (float): Distance traveled in meters
+    Returns:
+        graph: A graph of the trajectory. (Height vs. Distance)
     """
     x = []
     y = []
