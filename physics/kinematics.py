@@ -28,3 +28,28 @@ def VelAS(a, s, Vi):
   """
   finalVelocity = (Vi + (2 * (a * s))) ** 0.5
   return finalVelocity
+
+def displacment(Vi, t, a):
+  """
+  Calculates the displacement of an object in meters.
+  Args:
+    Vi (float): Inital velocity in m/s
+    t (float): Time in seconds
+    a (float): Acceleration of the object in m/s^2
+  Returns:
+    float: Displacement in meters
+  """
+  dis = (Vi * t) + ((a * (t ** 2)) / 2)
+  return dis
+
+def VelAvg(s, t):
+  """
+  Calculates the average velocity
+  Args:
+    s (float): Displacement in meters
+    t (float): Time in seconds
+  Returns:
+    float: Average velocity in m/s
+  """
+  avg = s / t
+  return avg
